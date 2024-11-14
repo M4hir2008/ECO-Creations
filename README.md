@@ -1,6 +1,6 @@
 # M.R.A.-Creations
 
-```**📚 Welcome to the Ebooks Repository!**
+**📚 Welcome to the Ebooks Repository!**
 
 Welcome to the collaborative space where creativity, knowledge, and stories come together. This repository is home to a collection of ebooks authored by a group of passionate writers and friends. Together, we’re building a library of diverse works—stories, essays, and more—across a variety of genres and styles.
 
@@ -16,4 +16,4 @@ Drafts & Works in Progress: Get a sneak peek at what we’re currently working o
 
 Follow us here to stay updated on new ebook releases and ongoing projects. You can also check out our Project Board to see what we’re working on and where you can jump in.
 
-Thank you for joining us on this literary adventure. Let the words flow!```
+Thank you for joining us on this literary adventure. Let the words flow!

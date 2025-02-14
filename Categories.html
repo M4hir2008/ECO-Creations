@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Series</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #2f2f2f;
+            color: #f4f4f4;
+            text-align: center;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-family: 'Arial', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .nav {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .nav a:hover {
+            color: #ff6347;
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 50px;
+        }
+
+        .series-title {
+            background-color: rgba(255, 255, 255, 0.2); /* Blended background for title */
+            padding: 20px;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .series-boxes {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .series-box {
+            width: 250px;
+            height: 350px;
+            border: 3px solid #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #444;
+            cursor: pointer;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+        }
+
+        .series-box:hover {
+            transform: scale(1.1);
+            background-color: #ff6347; /* Hover effect */
+            color: #fff;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #333;
+            font-size: 14px;
+            color: #f4f4f4;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px;
+        }
+
+        .see-more {
+            margin-top: 30px;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #444;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .see-more:hover {
+            background-color: #ff6347;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>ECO Creations</h1>
+        <div class="nav">
+            <a href="example.html">Home</a>
+            <a href="example.html">Series</a>
+            <a href="mailto:example@email.com">Email</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- Series Title Box -->
+        <div class="series-title">All the Series</div>
+
+        <div class="series-boxes">
+            <!-- Series Boxes -->
+            <a href="example.html">
+                <div class="series-box">Series 1</div>
+            </a>
+            <a href="example.html">
+                <div class="series-box">Series 2</div>
+            </a>
+            <a href="example.html">
+                <div class="series-box">Series 3</div>
+            </a>
+            <a href="example.html">
+                <div class="series-box">Series 4</div>
+            </a>
+        </div>
+
+        <!-- See More Link -->
+        <a href="example.html" class="see-more">See More</a>
+    </div>
+
+    <div class="footer">
+        <p>© ECO Creations</p>
+        <p>Made with GitHub and ChatGPT</p>
+        <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+    </div>
+
+</body>
+</html>

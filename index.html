@@ -72,6 +72,7 @@
             padding: 50px;
         }
 
+        /* Series Container */
         .series-container {
             display: flex;
             justify-content: center;
@@ -87,14 +88,17 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #444;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             cursor: pointer;
             transition: transform 0.3s ease-in-out;
+            border-radius: 10px;
         }
 
         .series-box:hover {
             transform: scale(1.1);
-            background-color: #ff6347;
+            border-color: #ff6347;
         }
 
         .footer {
@@ -132,20 +136,20 @@
         <h2>We are a small group of writers from Bangladesh. We love to write and share our books.</h2>
         <h3>Checkout our series:</h3>
 
-       <div class="series-container">
-    <a href="404.html">
-        <div class="series-box" style="background-image: url('CompressedOjanarUddessheSeason1FrontCompressed.png');">Series 1</div>
-    </a>
-    <a href="404e.html">
-        <div class="series-box" style="background-image: url('series2.jpg');">Series 2</div>
-    </a>
-    <a href="404.html">
-        <div class="series-box" style="background-image: url('series3.jpg');">Series 3</div>
-    </a>
-    <a href="404.html">
-        <div class="series-box" style="background-image: url('series4.jpg');">Series 4</div>
-    </a>
-</div>
+        <div class="series-container">
+            <a href="404.html">
+                <div class="series-box" style="background-image: url('CompressedOjanarUddessheSeason1FrontCompressed.png');"></div>
+            </a>
+            <a href="404e.html">
+                <div class="series-box" style="background-image: url('series2.jpg');"></div>
+            </a>
+            <a href="404.html">
+                <div class="series-box" style="background-image: url('series3.jpg');"></div>
+            </a>
+            <a href="404.html">
+                <div class="series-box" style="background-image: url('series4.jpg');"></div>
+            </a>
+        </div>
     </div>
 
     <div class="footer">
